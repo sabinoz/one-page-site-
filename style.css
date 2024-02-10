@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    color: #fff;
+    background-color: #313131;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+}
+
+.header h1 {
+    color: goldenrod;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.header h1>i {
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style: none;
+    position: relative;
+    left: 350px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header nav ul li {
+    display: inline;
+    padding: 40px;
+    position: relative;
+    top: 24px;
+}
+
+.header button {
+    position: relative;
+    float: right;
+    right: -650px;
+    padding: -5px;
+    border-radius: 3px;
+    width: 100px;
+    height: 35px;
+    top: 20px;
+    font-weight: 600;
+    background-color: rgb(17, 16, 16);
+    color: #fff;
+}
+
+.section img {
+    float: left;
+    width: 980px;
+    position: relative;
+    left: 40px;
+    height: 600px;
+}
+
+.section>.content {
+    position: relative;
+    left: 100px;
+    top: 30px;
+    float: left;
+    width: 400px;
+    height: 500px;
+}
+
+.content h3 {
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.content p {
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.content .buttons {
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.buttons button {
+    width: 180px;
+    font-weight: 600;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.buttons button:nth-child(1) {
+    background-color: goldenrod;
+}
+
+.buttons button:nth-child(2) {
+    background-color: #313131;
+    color: #fff;
+    border: 1px solid white;
+    margin-left: 30px;
+}
+
+.grow {
+    margin-top: 30px;
+    background-color: #313131;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    height: 120px;
+}
+
+.grow ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+
+}
